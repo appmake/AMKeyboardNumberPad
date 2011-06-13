@@ -1,0 +1,222 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* KeyboardNumberPadAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2122, 1201}}";
+			sepNavSelRange = "{530, 0}";
+			sepNavVisRange = "{0, 538}";
+		};
+	};
+	1D3623250D0F684500981E51 /* KeyboardNumberPadAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2122, 1201}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 2779}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* KeyboardNumberPad */ = {
+		activeExec = 0;
+		executables = (
+			D155F71513A2D9B300A0A56A /* KeyboardNumberPad */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* KeyboardNumberPadViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2122, 1201}}";
+			sepNavSelRange = "{332, 0}";
+			sepNavVisRange = "{0, 340}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* KeyboardNumberPadViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2122, 1201}}";
+			sepNavSelRange = "{3480, 0}";
+			sepNavVisRange = "{0, 3509}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D155F71513A2D9B300A0A56A /* KeyboardNumberPad */;
+		activeSDKPreference = iphoneos4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* KeyboardNumberPad */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* KeyboardNumberPad */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = D155F71E13A2D9D400A0A56A /* Code sense */;
+		executables = (
+			D155F71513A2D9B300A0A56A /* KeyboardNumberPad */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1959,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 329688130;
+			PBXWorkspaceStateSaveDate = 329688130;
+		};
+		perUserProjectItems = {
+			D1CF0AE613A68FAC00A62F51 /* PBXBookmark */ = D1CF0AE613A68FAC00A62F51 /* PBXBookmark */;
+			D1CF0B0D13A69A6C00A62F51 /* PBXTextBookmark */ = D1CF0B0D13A69A6C00A62F51 /* PBXTextBookmark */;
+			D1CF0B0E13A69A6C00A62F51 /* PBXTextBookmark */ = D1CF0B0E13A69A6C00A62F51 /* PBXTextBookmark */;
+			D1CF0B1513A6A06C00A62F51 /* PBXTextBookmark */ = D1CF0B1513A6A06C00A62F51 /* PBXTextBookmark */;
+			D1CF0B3413A6A0D700A62F51 /* PBXTextBookmark */ = D1CF0B3413A6A0D700A62F51 /* PBXTextBookmark */;
+			D1CF0B4613A6A23700A62F51 /* PlistBookmark */ = D1CF0B4613A6A23700A62F51 /* PlistBookmark */;
+			D1FC790913A5798E0062ADFA /* PBXTextBookmark */ = D1FC790913A5798E0062ADFA /* PBXTextBookmark */;
+			D1FC79C713A62F120062ADFA /* PBXTextBookmark */ = D1FC79C713A62F120062ADFA /* PBXTextBookmark */;
+		};
+		sourceControlManager = D155F71D13A2D9D400A0A56A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D155F71513A2D9B300A0A56A /* KeyboardNumberPad */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = KeyboardNumberPad;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	D155F71D13A2D9D400A0A56A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D155F71E13A2D9D400A0A56A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D1CF0AE613A68FAC00A62F51 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D1CF0ADA13A68F6000A62F51 /* heart.png */;
+	};
+	D1CF0B0D13A69A6C00A62F51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* KeyboardNumberPadAppDelegate.h */;
+		name = "KeyboardNumberPadAppDelegate.h: 19";
+		rLen = 0;
+		rLoc = 530;
+		rType = 0;
+		vrLen = 538;
+		vrLoc = 0;
+	};
+	D1CF0B0E13A69A6C00A62F51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* KeyboardNumberPadAppDelegate.m */;
+		name = "KeyboardNumberPadAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2779;
+		vrLoc = 0;
+	};
+	D1CF0B1513A6A06C00A62F51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* KeyboardNumberPadViewController.m */;
+		name = "KeyboardNumberPadViewController.m: 84";
+		rLen = 0;
+		rLoc = 3480;
+		rType = 0;
+		vrLen = 3509;
+		vrLoc = 0;
+	};
+	D1CF0B3413A6A0D700A62F51 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* KeyboardNumberPadViewController.h */;
+		name = "KeyboardNumberPadViewController.h: 13";
+		rLen = 0;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 340;
+		vrLoc = 0;
+	};
+	D1CF0B4613A6A23700A62F51 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* KeyboardNumberPad-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPad-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	D1FC790913A5798E0062ADFA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D1FC790A13A5798E0062ADFA /* UITextField.h */;
+		name = "UITextField.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 5444;
+		vrLoc = 2930;
+	};
+	D1FC790A13A5798E0062ADFA /* UITextField.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UITextField.h;
+		path = "/Developer-old/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITextField.h";
+		sourceTree = "<absolute>";
+	};
+	D1FC79C713A62F120062ADFA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D1FC79C813A62F120062ADFA /* KalTileView.m */;
+		name = "KalTileView.m: 56";
+		rLen = 11;
+		rLoc = 1994;
+		rType = 0;
+		vrLen = 3575;
+		vrLoc = 0;
+	};
+	D1FC79C813A62F120062ADFA /* KalTileView.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = KalTileView.m;
+		path = "/Users/vinogradov/ProjectsiPhone/В работе/BookAero/Source/Framework/Kal/KalTileView.m";
+		sourceTree = "<absolute>";
+	};
+}

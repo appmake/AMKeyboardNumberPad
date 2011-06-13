@@ -1,0 +1,435 @@
+TKeyboardNumberPad
+v7
+r0
+t329658200.190795
+cCheck dependencies
+cProcessInfoPlistFile "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/Info.plist" KeyboardNumberPad-Info.plist
+cCompileXIB "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/MainWindow.xib"
+cCompileXIB "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPadViewController.xib"
+cCpResource build/Debug-iphonesimulator/KeyboardNumberPad.app/AMTextFieldNumberPad.bundle AMTextFieldNumberPad.bundle
+cProcessPCH /var/folders/qy/flq_hlb54k7cdjxqh3vsxdzm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/KeyboardNumberPad_Prefix-gjlpebgtuzujntgbzjdqzinzlnfx/KeyboardNumberPad_Prefix.pch.gch KeyboardNumberPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/main.o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPadAppDelegate.o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPadViewController.o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/AMTextFieldNumberPad.o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/AMTextFieldNumberPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad" normal i386
+cGenerateDSYMFile "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app.dSYM" "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad"
+cTouch "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app"
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004DF367F00000000000000110
+t1307797488
+s272
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/AMTextFieldNumberPad.bundle
+c000000004DF5F0B40000000000000132
+t1307963572
+s306
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/AMTextFieldNumberPad.h
+c000000004DF5F689000000000000024A
+t1307965065
+s586
+i<UIKit/UIKit.h>
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/AMTextFieldNumberPad.m
+c000000004DF5F7BD000000000000193F
+t1307965373
+s6463
+i"AMTextFieldNumberPad.h"
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadAppDelegate.h
+c000000004DF2A233000000000000021A
+t1307746867
+s538
+i<UIKit/UIKit.h>
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadAppDelegate.m
+c000000004DF2A2330000000000000ADB
+t1307746867
+s2779
+i"KeyboardNumberPadAppDelegate.h"
+i"KeyboardNumberPadViewController.h"
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadViewController.h
+c000000004DF5F6E50000000000000122
+t1307965157
+s290
+i<UIKit/UIKit.h>
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadViewController.m
+c000000004DF5F71800000000000005B7
+t1307965208
+s1463
+i"KeyboardNumberPadViewController.h"
+i"AMTextFieldNumberPad.h"
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextField+NumberPad.h
+c000000004DF53B9300000000000000F0
+t1307917203
+s240
+i<UIKit/UIKit.h>
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextField+NumberPad.m
+c000000004DF53BBC00000000000000EB
+t1307917244
+s235
+i"UITextField+NumberPad.h"
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.h
+c000000004DF5F5E4000000000000024A
+t1307964900
+s586
+i<UIKit/UIKit.h>
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m
+c000000004DF5F6640000000000001899
+t1307965028
+s6297
+i"UITextFieldNumberPad.h"
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPadViewController.xib
+c000000004DF2A2330000000000001A6D
+t1307746867
+s6765
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPad_Prefix.pch
+c000000004DF2A23300000000000000CB
+t1307746867
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyborardNumberPad.bundle
+c000000004DF5F0B40000000000000132
+t1307963572
+s306
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/MainWindow.xib
+c000000004DF2A2330000000000004EA1
+t1307746867
+s20129
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app
+t1307965400
+s272
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app.dSYM
+t1307965400
+s102
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/AMTextFieldNumberPad.bundle
+t1307965396
+s272
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/Info.plist
+t1307965396
+s637
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad
+t1307965400
+s32448
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPadViewController.nib
+t1307965398
+s1269
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyborardNumberPad.bundle
+t1307963837
+s272
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/MainWindow.nib
+t1307965398
+s1701
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/PkgInfo
+t1307965396
+s8
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/button_keyboard_hide.png
+t1307749212
+s2159
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/button_keyboard_hide@2x.png
+t1307749212
+s2223
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/AMTextFieldNumberPad.o
+t1307965400
+s68252
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPad.LinkFileList
+c000000004DF5F7D4000000000000031B
+t1307965396
+s795
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPadAppDelegate.o
+t1307965400
+s51992
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPadViewController.o
+t1307965399
+s44724
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/UITextField+NumberPad.o
+t2
+s0
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/UITextFieldNumberPad.o
+t2
+s0
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/main.o
+t1307965400
+s6408
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/button_keyboard_hide.png
+c000000004DF28E4E000000000000086F
+t1307741774
+s2159
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/button_keyboard_hide@2x.png
+c000000004DF28E3400000000000008AF
+t1307741748
+s2223
+
+N/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/main.m
+c000000004DF2A2330000000000000172
+t1307746867
+s370
+i<UIKit/UIKit.h>
+
+N/var/folders/qy/flq_hlb54k7cdjxqh3vsxdzm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/KeyboardNumberPad_Prefix-gjlpebgtuzujntgbzjdqzinzlnfx/KeyboardNumberPad_Prefix.pch.gch
+t1307965399
+s15814064
+
+NKeyboardNumberPad-Info.plist
+c000000004DF2A233000000000000038D
+t1307746867
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies329658196#329658196#0(0"0(0#1#0"4552303936#0"0#
+
+CCompileC build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/AMTextFieldNumberPad.o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/AMTextFieldNumberPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s329658199.931207
+e329658200.008540
+r1
+xCompileC
+xbuild/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/AMTextFieldNumberPad.o
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/AMTextFieldNumberPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@117"Compile /Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/AMTextFieldNumberPad.m329658199#329658200#0(0"0(0#0#109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/AMTextFieldNumberPad.m4552302224#2690"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-generated-files.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-own-target-headers.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-all-target-headers.hmap" -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-project-headers.hmap" "-F/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/include" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources/i386" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources" -include /var/folders/qy/flq_hlb54k7cdjxqh3vsxdzm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/KeyboardNumberPad_Prefix-gjlpebgtuzujntgbzjdqzinzlnfx/KeyboardNumberPad_Prefix.pch -c "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/AMTextFieldNumberPad.m" -o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/AMTextFieldNumberPad.o"0#
+
+CCompileC build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPadAppDelegate.o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s329658199.929736
+e329658200.009691
+r1
+xCompileC
+xbuild/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPadAppDelegate.o
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadAppDelegate.m329658199#329658200#0(0"0(0#0#117"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadAppDelegate.m4552302224#2706"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-generated-files.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-own-target-headers.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-all-target-headers.hmap" -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-project-headers.hmap" "-F/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/include" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources/i386" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources" -include /var/folders/qy/flq_hlb54k7cdjxqh3vsxdzm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/KeyboardNumberPad_Prefix-gjlpebgtuzujntgbzjdqzinzlnfx/KeyboardNumberPad_Prefix.pch -c "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadAppDelegate.m" -o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPadAppDelegate.o"0#
+
+CCompileC build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPadViewController.o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s329658199.930517
+e329658199.976168
+r1
+xCompileC
+xbuild/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPadViewController.o
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@128"Compile /Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadViewController.m329658199#329658199#0(0"0(0#0#120"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadViewController.m4552302224#2712"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-generated-files.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-own-target-headers.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-all-target-headers.hmap" -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-project-headers.hmap" "-F/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/include" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources/i386" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources" -include /var/folders/qy/flq_hlb54k7cdjxqh3vsxdzm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/KeyboardNumberPad_Prefix-gjlpebgtuzujntgbzjdqzinzlnfx/KeyboardNumberPad_Prefix.pch -c "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/KeyboardNumberPadViewController.m" -o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPadViewController.o"0#
+
+CCompileC build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/UITextField+NumberPad.o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextField+NumberPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/UITextFieldNumberPad.o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s329657701.051635
+e329657701.275786
+r0
+xCompileC
+xbuild/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/UITextFieldNumberPad.o
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:19: error: no declaration of property 'image' found in the interface
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:19: error: no declaration of property 'keyboardIcon' found in the interface
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: In function '-[UITextFieldNumberPad setup]':
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:48: error: 'keyboardIcon' undeclared (first use in this function)
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:48: error: (Each undeclared identifier is reported only once
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:48: error: for each function it appears in.)
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:48: error: 'KeyboardIconNone' undeclared (first use in this function)
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: In function '-[UITextFieldNumberPad setText:]':
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:65: error: 'keyboardIcon' undeclared (first use in this function)
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:65: error: 'KeyboardIconCustom' undeclared (first use in this function)
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: In function '-[UITextFieldNumberPad setImage:]':
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:70: error: 'image' undeclared (first use in this function)
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:72: error: 'keyboardIcon' undeclared (first use in this function)
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:72: error: 'KeyboardIconCustom' undeclared (first use in this function)
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: At top level:
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:75: error: expected ')' before 'KeyboardIcon'
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: In function '-[UITextFieldNumberPad setKeyboardIcon:]':
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:76: error: 'keyboardIcon' undeclared (first use in this function)
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: In function '-[UITextFieldNumberPad dealloc]':
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:203: error: 'image' undeclared (first use in this function)
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: At top level:
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonText' requires method '-buttonText' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonText' requires the method 'setButtonText:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonImage' requires method '-buttonImage' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonImage' requires the method 'setButtonImage:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonIcon' requires method '-buttonIcon' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonIcon' requires the method 'setButtonIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@117"Compile /Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657701#329657701#0(5027"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:19: error: no declaration of property 'image' found in the interface/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:19: error: no declaration of property 'keyboardIcon' found in the interface/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: In function '-[UITextFieldNumberPad setup]':/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:48: error: 'keyboardIcon' undeclared (first use in this function)/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:48: error: (Each undeclared identifier is reported only once/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:48: error: for each function it appears in.)/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:48: error: 'KeyboardIconNone' undeclared (first use in this function)/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: In function '-[UITextFieldNumberPad setText:]':/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:65: error: 'keyboardIcon' undeclared (first use in this function)/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:65: error: 'KeyboardIconCustom' undeclared (first use in this function)/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: In function '-[UITextFieldNumberPad setImage:]':/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:70: error: 'image' undeclared (first use in this function)/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:72: error: 'keyboardIcon' undeclared (first use in this function)/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:72: error: 'KeyboardIconCustom' undeclared (first use in this function)/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: At top level:/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:75: error: expected ')' before 'KeyboardIcon'/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: In function '-[UITextFieldNumberPad setKeyboardIcon:]':/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:76: error: 'keyboardIcon' undeclared (first use in this function)/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: In function '-[UITextFieldNumberPad dealloc]':/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:203: error: 'image' undeclared (first use in this function)/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m: At top level:/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonText' requires method '-buttonText' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonText' requires the method 'setButtonText:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonImage' requires method '-buttonImage' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonImage' requires the method 'setButtonImage:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonIcon' requires method '-buttonIcon' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m:207: warning: property 'buttonIcon' requires the method 'setButtonIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation20(4@57"No declaration of property 'image' found in the interface329657701#0#172#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#19#0#19#0#0"0(4@64"No declaration of property 'keyboardIcon' found in the interface329657701#172#179#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#19#0#19#0#0"0(4@54"'keyboardIcon' undeclared (first use in this function)329657701#500#169#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#48#0#48#0#43"'*' undeclared (first use in this function)0(4@58"'KeyboardIconNone' undeclared (first use in this function)329657701#981#173#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#48#0#48#0#43"'*' undeclared (first use in this function)0(4@54"'keyboardIcon' undeclared (first use in this function)329657701#1306#169#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#65#0#65#0#43"'*' undeclared (first use in this function)0(4@60"'KeyboardIconCustom' undeclared (first use in this function)329657701#1475#175#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#65#0#65#0#43"'*' undeclared (first use in this function)0(4@47"'image' undeclared (first use in this function)329657701#1803#162#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#70#0#70#0#43"'*' undeclared (first use in this function)0(4@54"'keyboardIcon' undeclared (first use in this function)329657701#1965#169#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#72#0#72#0#43"'*' undeclared (first use in this function)0(4@60"'KeyboardIconCustom' undeclared (first use in this function)329657701#2134#175#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#72#0#72#0#43"'*' undeclared (first use in this function)0(23@13"At top level:329657701#2309#118#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#0#0#0#0#0"0(4@34"Expected ')' before 'KeyboardIcon'329657701#2427#149#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#75#0#75#0#19"expected * before *0(4@54"'keyboardIcon' undeclared (first use in this function)329657701#2736#169#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#76#0#76#0#43"'*' undeclared (first use in this function)0(4@47"'image' undeclared (first use in this function)329657701#3056#163#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#203#0#203#0#43"'*' undeclared (first use in this function)0(23@13"At top level:329657701#3219#118#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#0#0#0#0#0"0(22@128"Property 'buttonText' requires method '-buttonText' to be defined - use @synthesize, @dynamic or provide a method implementation329657701#3337#246#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#207#0#207#0#0"0(22@135"Property 'buttonText' requires the method 'setButtonText:' to be defined - use @synthesize, @dynamic or provide a method implementation329657701#3583#253#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#207#0#207#0#0"0(22@130"Property 'buttonImage' requires method '-buttonImage' to be defined - use @synthesize, @dynamic or provide a method implementation329657701#3836#248#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#207#0#207#0#0"0(22@137"Property 'buttonImage' requires the method 'setButtonImage:' to be defined - use @synthesize, @dynamic or provide a method implementation329657701#4084#255#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#207#0#207#0#0"0(22@128"Property 'buttonIcon' requires method '-buttonIcon' to be defined - use @synthesize, @dynamic or provide a method implementation329657701#4339#246#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#207#0#207#0#0"0(22@135"Property 'buttonIcon' requires the method 'setButtonIcon:' to be defined - use @synthesize, @dynamic or provide a method implementation329657701#4585#253#0(6@109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m329657624#207#0#207#0#0"0(0#0#109"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m4561317520#2690"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-generated-files.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-own-target-headers.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-all-target-headers.hmap" -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-project-headers.hmap" "-F/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/include" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources/i386" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources" -include /var/folders/qy/flq_hlb54k7cdjxqh3vsxdzm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/KeyboardNumberPad_Prefix-gjlpebgtuzujntgbzjdqzinzlnfx/KeyboardNumberPad_Prefix.pch -c "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/Classes/UITextFieldNumberPad.m" -o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/UITextFieldNumberPad.o"1#
+
+CCompileC build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/main.o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s329658199.928911
+e329658200.012224
+r1
+xCompileC
+xbuild/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/main.o
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@93"Compile /Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/main.m329658199#329658200#0(0"0(0#0#85"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/main.m4552302224#2650"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-generated-files.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-own-target-headers.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-all-target-headers.hmap" -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-project-headers.hmap" "-F/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/include" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources/i386" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources" -include /var/folders/qy/flq_hlb54k7cdjxqh3vsxdzm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/KeyboardNumberPad_Prefix-gjlpebgtuzujntgbzjdqzinzlnfx/KeyboardNumberPad_Prefix.pch -c "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/main.m" -o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPadViewController.xib"
+s329658196.546902
+e329658198.176495
+r1
+xCompileXIB
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPadViewController.xib
+lSLF07#2@46"CompileXIB KeyboardNumberPadViewController.xib329658196#329658198#0(0"0(0#0#114"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPadViewController.xib4552302224#826"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPadViewController.nib" "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPadViewController.xib" --sdk /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/MainWindow.xib"
+s329658196.546335
+e329658198.127111
+r1
+xCompileXIB
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib329658196#329658198#0(0"0(0#0#93"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/MainWindow.xib4552302224#784"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/MainWindow.nib" "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/MainWindow.xib" --sdk /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCpResource build/Debug-iphonesimulator/KeyboardNumberPad.app/AMTextFieldNumberPad.bundle AMTextFieldNumberPad.bundle
+s329658196.547455
+e329658196.702433
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KeyboardNumberPad.app/AMTextFieldNumberPad.bundle
+xAMTextFieldNumberPad.bundle
+lSLF07#2@32"Copy AMTextFieldNumberPad.bundle329658196#329658196#0(0"0(0#0#106"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/AMTextFieldNumberPad.bundle4552302224#695"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/AMTextFieldNumberPad.bundle" "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app"0#
+
+CCpResource build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyborardNumberPad.bundle KeyborardNumberPad.bundle
+s329656637.871402
+e329656637.955013
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KeyboardNumberPad.app/KeyborardNumberPad.bundle
+xKeyborardNumberPad.bundle
+lSLF07#2@30"Copy KeyborardNumberPad.bundle329656637#329656637#0(0"0(0#0#104"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyborardNumberPad.bundle17245268480#693"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyborardNumberPad.bundle" "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app"0#
+
+CCpResource build/Debug-iphonesimulator/KeyboardNumberPad.app/button_keyboard_hide.png button_keyboard_hide.png
+s329442012.118333
+e329442012.162673
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KeyboardNumberPad.app/button_keyboard_hide.png
+xbutton_keyboard_hide.png
+lSLF07#2@29"Copy button_keyboard_hide.png329442012#329442012#0(0"0(0#0#103"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/button_keyboard_hide.png4446662288#692"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/button_keyboard_hide.png" "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app"0#
+
+CCpResource build/Debug-iphonesimulator/KeyboardNumberPad.app/button_keyboard_hide@2x.png button_keyboard_hide@2x.png
+s329442012.118875
+e329442012.162789
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KeyboardNumberPad.app/button_keyboard_hide@2x.png
+xbutton_keyboard_hide@2x.png
+lSLF07#2@32"Copy button_keyboard_hide@2x.png329442012#329442012#0(0"0(0#0#106"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/button_keyboard_hide@2x.png4446662288#695"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/button_keyboard_hide@2x.png" "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app"0#
+
+CGenerateDSYMFile "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app.dSYM" "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad"
+s329658200.159265
+e329658200.188368
+r1
+xGenerateDSYMFile
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app.dSYM
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/KeyboardNumberPad.app.dSYM build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad329658200#329658200#0(0"0(0#0#146"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad4552302224#613"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/usr/bin/dsymutil "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad" -o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app.dSYM"0#
+
+CLd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad" normal i386
+s329658200.012359
+e329658200.159181
+r1
+xLd
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad
+xnormal
+xi386
+lSLF07#2@151"Link /Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad329658200#329658200#0(0"0(0#0#0"4552302224#1238"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk "-L/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator" "-F/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator" -filelist "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/Objects-normal/i386/KeyboardNumberPad.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/KeyboardNumberPad"0#
+
+CProcessInfoPlistFile "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/Info.plist" KeyboardNumberPad-Info.plist
+s329658196.543297
+e329658196.546275
+r1
+xProcessInfoPlistFile
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/Info.plist
+xKeyboardNumberPad-Info.plist
+lSLF07#2@36"Process KeyboardNumberPad-Info.plist329658196#329658196#0(0"0(0#0#107"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPad-Info.plist4552302336#705"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility KeyboardNumberPad-Info.plist -genpkginfo "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app/Info.plist"0#
+
+CProcessPCH /var/folders/qy/flq_hlb54k7cdjxqh3vsxdzm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/KeyboardNumberPad_Prefix-gjlpebgtuzujntgbzjdqzinzlnfx/KeyboardNumberPad_Prefix.pch.gch KeyboardNumberPad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s329658198.176603
+e329658199.928805
+r1
+xProcessPCH
+x/var/folders/qy/flq_hlb54k7cdjxqh3vsxdzm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/KeyboardNumberPad_Prefix-gjlpebgtuzujntgbzjdqzinzlnfx/KeyboardNumberPad_Prefix.pch.gch
+xKeyboardNumberPad_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile KeyboardNumberPad_Prefix.pch329658198#329658199#0(0"0(0#0#107"/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPad_Prefix.pch4552302224#2490"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer-old/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-generated-files.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-own-target-headers.hmap" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-all-target-headers.hmap" -iquote "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/KeyboardNumberPad-project-headers.hmap" "-F/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/include" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources/i386" "-I/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/KeyboardNumberPad.build/Debug-iphonesimulator/KeyboardNumberPad.build/DerivedSources" -c "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPad_Prefix.pch" -o /var/folders/qy/flq_hlb54k7cdjxqh3vsxdzm0000gp/C/com.apple.Xcode.502/SharedPrecompiledHeaders/KeyboardNumberPad_Prefix-gjlpebgtuzujntgbzjdqzinzlnfx/KeyboardNumberPad_Prefix.pch.gch0#
+
+CTouch "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app"
+s329658200.188446
+e329658200.190769
+r1
+xTouch
+x/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app
+lSLF07#2@134"Touch /Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app329658200#329658200#0(0"0(0#0#0"4552302224#442"    cd "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad"    setenv PATH "/Developer-old/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer-old/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/build/Debug-iphonesimulator/KeyboardNumberPad.app"0#
+
