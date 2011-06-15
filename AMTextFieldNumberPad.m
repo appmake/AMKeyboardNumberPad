@@ -14,6 +14,7 @@
 - (void)checkKeyboardButton;
 - (void)removeKeyboardButton;
 - (void)changeButtonParams;
+- (void)orientationDidChange:(NSNotification *)theNotification;
 @end
 
 @implementation AMTextFieldNumberPad
@@ -61,7 +62,6 @@
 
 - (void)actionKeyboardHide:(UIButton *)sender {
 	[self resignFirstResponder];
-	
 	if (self.delegate && [self.delegate respondsToSelector:@selector(textFieldShouldReturn:)])
 		[self.delegate performSelector:@selector(textFieldShouldReturn:) withObject:self];
 }
@@ -266,20 +266,26 @@
 }
 
 - (void)didBeginEditing:(NSNotification *)theNotification {
-	if (self.editing)
-		[self checkKeyboardButton];
+	if (self.editing) {
+		if (self.keyboardType == UIKeyboardTypeNumberPad)
+			[self checkKeyboardButton];
+		else
+			[buttonDone setHidden:TRUE];
+	}
+	
 }
 
 - (void)didEndEditing:(NSNotification *)theNotification {
-	if (!self.editing)
+	if (!self.editing) {
 		[self removeKeyboardButton];
+	}
 }
 
 - (void)keyboardWillShow:(NSNotification *)theNotification { 
 	
 	isRotating = FALSE;
 	
-	if (!self.editing || isKeyboardShow) {
+	if (!self.editing || self.keyboardType != UIKeyboardTypeNumberPad || isKeyboardShow) {
 		return;
 	}
 	
@@ -294,7 +300,7 @@
 		
 		// Включаем отображение кнопки (на тот случай если была выключена)
 		[buttonDone setHidden:FALSE];
-			
+		
 		// Тянем кнопку вверх вместе с клавиатурой
 		[buttonDone setFrame:buttonRectHide];
 		[UIView beginAnimations:nil context:NULL];
