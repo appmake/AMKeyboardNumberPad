@@ -51,6 +51,8 @@
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didEndEditing:) name:UITextFieldTextDidEndEditingNotification object:nil];
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationDidChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
 	
+	[self orientationDidChange:nil];
+	
 	buttonIcon = ButtonIconNone;
 }
 
@@ -59,6 +61,9 @@
 
 - (void)actionKeyboardHide:(UIButton *)sender {
 	[self resignFirstResponder];
+	
+	if (self.delegate && [self.delegate respondsToSelector:@selector(textFieldShouldReturn:)])
+		[self.delegate performSelector:@selector(textFieldShouldReturn:) withObject:self];
 }
 
 #pragma mark -
@@ -292,9 +297,10 @@
 			
 		// Тянем кнопку вверх вместе с клавиатурой
 		[buttonDone setFrame:buttonRectHide];
-		[UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseIn animations:^{
-			[buttonDone setFrame:buttonRectShow];
-		} completion:nil];
+		[UIView beginAnimations:nil context:NULL];
+		[UIView setAnimationDuration:0.3];
+		[buttonDone setFrame:buttonRectShow];
+		[UIView commitAnimations];
 	}
 }
 
@@ -314,16 +320,18 @@
 	if (windowTemp && buttonDone) {
 		
 		// Тянем кнопку вниз вместе с клавиатурой
-		[UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationCurveEaseOut animations:^{
-			[buttonDone setFrame:buttonRectHide];
-		} completion:^(BOOL finished) {
-				
-			// И потом прячем ее
-			[buttonDone setHidden:TRUE];
-			
-			isKeyboardShow = FALSE;
-		}];
+		[UIView beginAnimations:nil context:NULL];
+		[UIView setAnimationDuration:0.3];
+		[UIView setAnimationDelegate:self];
+		[UIView setAnimationDidStopSelector:@selector(buttonAnimationHide)];
+		[buttonDone setFrame:buttonRectHide];
+		[UIView commitAnimations];
 	}
+}
+
+- (void)buttonAnimationHide {
+	isKeyboardShow = FALSE;
+	[buttonDone setHidden:TRUE];
 }
 
 #pragma mark -

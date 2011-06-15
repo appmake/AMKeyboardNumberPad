@@ -229,8 +229,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -275,8 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
-									<integer>10</integer>
+									<integer>4</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -311,12 +309,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>KeyboardNumberPad-Info.plist</string>
+								<string>AMTextFieldNumberPad.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,17 +324,29 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>KeyboardNumberPad-Info.plist</string>
+										<string>AMTextFieldNumberPad.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>D14650DE13A8FF2C000D7DD6</string>
 										<key>history</key>
 										<array>
 											<string>D1FC790913A5798E0062ADFA</string>
 											<string>D1FC79C713A62F120062ADFA</string>
 											<string>D1CF0AE613A68FAC00A62F51</string>
-											<string>D1CF0B0D13A69A6C00A62F51</string>
-											<string>D1CF0B0E13A69A6C00A62F51</string>
-											<string>D1CF0B1513A6A06C00A62F51</string>
-											<string>D1CF0B3413A6A0D700A62F51</string>
-											<string>D1CF0B4613A6A23700A62F51</string>
+											<string>D1AD7CC213A7823400DCAEF0</string>
+											<string>D1AD7CC313A7823400DCAEF0</string>
+											<string>D1AD7CC413A7823400DCAEF0</string>
+											<string>D1AD7CC713A7823400DCAEF0</string>
+											<string>D1AD7CC913A7823400DCAEF0</string>
+											<string>D1AD7CCB13A7823400DCAEF0</string>
+											<string>D1AD7CCD13A7823400DCAEF0</string>
+											<string>D1AD7CCF13A7823400DCAEF0</string>
+											<string>D1AD7CD113A7823400DCAEF0</string>
+											<string>D1AD7CD313A7823400DCAEF0</string>
+											<string>D14650DC13A8FF2C000D7DD6</string>
+											<string>D14650DD13A8FF2C000D7DD6</string>
+											<string>D1AD7CC513A7823400DCAEF0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -392,9 +404,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>D1AD7C9413A6A44900DCAEF0</string>
+				<string>D14650DF13A8FF2C000D7DD6</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>D1AD7C9513A6A44900DCAEF0</string>
+				<string>D14650E013A8FF2C000D7DD6</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -532,8 +544,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>D155F73313A2DBAF00A0A56A</string>
-		<string>/Users/vinogradov/ProjectsiPhone/В работе/KeyboardPad/KeyboardNumberPad/KeyboardNumberPad.xcodeproj</string>
+		<string>/Users/vinogradov/ProjectsiPhone/В работе/AMKeyboardNumberPad/Demo/KeyboardNumberPad.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 116 2560 1302 0 0 2560 1418 </string>
@@ -613,7 +626,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>D155F73313A2DBAF00A0A56A</string>
-				<string>D1AD7C9613A6A44900DCAEF0</string>
+				<string>D14650E113A8FF2C000D7DD6</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -657,8 +670,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {316, 198}}</string>
-											<string>{{316, 0}, {378, 198}}</string>
+											<string>{{0, 0}, {316, 202}}</string>
+											<string>{{316, 0}, {378, 202}}</string>
 										</array>
 									</dict>
 									<key>VerticalSplitView</key>
@@ -673,8 +686,8 @@
 										<string>yes</string>
 										<key>sizes</key>
 										<array>
-											<string>{{0, 0}, {694, 198}}</string>
-											<string>{{0, 198}, {694, 183}}</string>
+											<string>{{0, 0}, {694, 202}}</string>
+											<string>{{0, 202}, {694, 179}}</string>
 										</array>
 									</dict>
 								</dict>
@@ -700,14 +713,14 @@
 									<key>DebugVariablesTableConfiguration</key>
 									<array>
 										<string>Name</string>
-										<real>130</real>
+										<real>140</real>
 										<string>Value</string>
-										<real>95</real>
+										<real>105</real>
 										<string>Summary</string>
-										<real>128</real>
+										<real>108</real>
 									</array>
 									<key>Frame</key>
-									<string>{{316, 0}, {378, 198}}</string>
+									<string>{{316, 0}, {378, 202}}</string>
 									<key>RubberWindowFrame</key>
 									<string>21 973 694 422 0 0 2560 1418 </string>
 								</dict>
@@ -735,13 +748,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>D1CF0A1413A67BB800A62F51</string>
+				<string>D14650E213A8FF2C000D7DD6</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>D1CF0A1513A67BB800A62F51</string>
-				<string>D1CF0A1613A67BB800A62F51</string>
-				<string>D1CF0A1713A67BB800A62F51</string>
-				<string>D1CF0A1813A67BB800A62F51</string>
-				<string>D1CF0A1913A67BB800A62F51</string>
+				<string>D14650E313A8FF2C000D7DD6</string>
+				<string>D14650E413A8FF2C000D7DD6</string>
+				<string>D14650E513A8FF2C000D7DD6</string>
+				<string>D14650E613A8FF2C000D7DD6</string>
+				<string>D14650E713A8FF2C000D7DD6</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -905,7 +918,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>D1CF0A1A13A67BB800A62F51</string>
+				<string>D1AD7CDC13A7823400DCAEF0</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

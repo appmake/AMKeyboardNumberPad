@@ -11,6 +11,8 @@
 
 @implementation KeyboardNumberPadViewController
 
+
+
 #pragma mark -
 #pragma mark Initializate
 
@@ -21,7 +23,8 @@
 	[textField setButtonIcon:ButtonIconKeyboard];
 	
 	// Прозрачная клавиатура с UIReturnKeyGo
-	AMTextFieldNumberPad *textField2 = [[AMTextFieldNumberPad alloc] initWithFrame:CGRectMake(20.00f, 70.00f, 280.00f, 31.00f)];
+	AMTextFieldNumberPad *textField2 = [[AMTextFieldNumberPad alloc] init];
+	[textField2 setFrame:CGRectMake(20.00f, 70.00f, 280.00f, 31.00f)];
 	[textField2 setBorderStyle:UITextBorderStyleRoundedRect];
 	[textField2 setKeyboardType:UIKeyboardTypeNumberPad];
 	[textField2 setReturnKeyType:UIReturnKeyGo];
