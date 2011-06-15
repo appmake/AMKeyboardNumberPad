@@ -25,14 +25,14 @@
 #pragma mark Initializate
 
 - (id)initWithFrame:(CGRect)frame {
-	if ((self == [super initWithFrame:frame])) {
+	if ((self = [super initWithFrame:frame])) {
 		[self setup];
 	}
 	return self;
 }
 
 - (id)init {
-	if ((self == [super init])) {
+	if ((self = [super init])) {
 		[self setup];
 	}
 	return self;
@@ -111,7 +111,7 @@
 		
 		// Пробуем удалить кнопку (мы ее могли создать раньше, в этом или другом UITextField)
 		for (UIView *v in [windowTemp subviews]) {
-			if ([NSStringFromClass([v class]) isEqualToString:@"UIButton"]) {
+			if ([v isKindOfClass:[UIButton class]]) {
 				[v setHidden:FALSE];
 				buttonDone = [(UIButton *)v retain];
 				[buttonDone removeTarget:nil action:NULL forControlEvents:UIControlEventAllEvents];
@@ -128,8 +128,8 @@
 			[button retain];
 			[windowTemp addSubview:button];
 			
-			[buttonDone release];
 			buttonDone = button;
+			[button release];
 		}
 		
 		// Устанавливаем позицию кнопки
@@ -238,7 +238,7 @@
 		
 		// Пробуем удалить кнопку
 		for (UIView *v in [windowTemp subviews]) {
-			if ([NSStringFromClass([v class]) isEqualToString:@"UIButton"]) {
+			if ([v isKindOfClass:[UIButton class]]) {
 				[v setHidden:TRUE];
 			}
 		}
