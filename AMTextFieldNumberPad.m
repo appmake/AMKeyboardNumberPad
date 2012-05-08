@@ -257,8 +257,16 @@
 - (void)orientationDidChange:(NSNotification *)theNotification {
 	
 	isRotating = TRUE;
-	
-	isPortrait = UIDeviceOrientationIsPortrait([UIDevice currentDevice].orientation);
+    
+    NSUInteger orientation = [UIDevice currentDevice].orientation;
+    
+    if (!UIDeviceOrientationIsValidInterfaceOrientation(orientation)) {
+        isPortrait = YES;
+    }
+    else {
+        isPortrait = UIDeviceOrientationIsPortrait(orientation);
+    }
+
 	buttonRectShow = (isPortrait) ? CGRectMake(0.00f, 427.00f, 105.00f, 53.00f) : CGRectMake(0.00f, 281.00f, 158.00f, 39.00f);
 	buttonRectHide = (isPortrait) ? CGRectMake(0.00f, 644.00f, 105.00f, 53.00f) : CGRectMake(0.00f, 443.00f, 158.00f, 39.00f);
 	
